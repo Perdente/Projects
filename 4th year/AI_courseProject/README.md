@@ -48,7 +48,7 @@
 The handwritten digit recognition is a famous image classification problem. Convolutional neural networks or widely known as ConvNets are powerful classification models for accomplishing the tasks. As different languages have their particular shapes and styles of their numeric digits, the accuracy rates of different models vary from one another. In this project, I used various CNN structures to train a model with the dataset of both **English** and **Bangla** handwritten digits and also modified slightly to improve the accuracy of the model. The platform I used to train the model is [google colab](https://colab.research.google.com/?utm_source=scs-index) and also develop a _GUI_ in my **PC**
 to predict the newly imported digit images.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#bangla-and-english-handwritten-digits-recognition">^^</a>)</p>
 
 
 #### Built With
@@ -64,6 +64,7 @@ The list of various libraries and frameworks used to build this model and GUI
 | PIL $7.1.2$ |PIL $8.1.0$ | Adds support for opening, manipulating, and saving many different image file formats |
 
 
+<p align="right">(<a href="#bangla-and-english-handwritten-digits-recognition">^^</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -74,12 +75,15 @@ The list of various libraries and frameworks used to build this model and GUI
 4. Now model is saved in drive named `English&Bangla_digitModel.h5`.
 5. Download the `English&Bangla_digitModel.h5` file and save to PC.
 
+<p align="right">(<a href="#bangla-and-english-handwritten-digits-recognition">^^</a>)</p>
+
 #### Developing GUI
 1. Import necessary libraries in `GUI_Handwritten_Digit_Recognition.ipynb` file in PC.
 2. Then load the saved model `English&Bangla_digitModel.h5`.
 3. Compile the model.
 4. Finally run the `GUI_Handwritten_Digit_Recognition.ipynb` file and predict the images drawn in window.
 
+<p align="right">(<a href="#bangla-and-english-handwritten-digits-recognition">^^</a>)</p>
 
 
 
