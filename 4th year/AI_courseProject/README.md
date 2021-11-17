@@ -48,6 +48,7 @@
 The handwritten digit recognition is a famous image classification problem. Convolutional neural networks or widely known as ConvNets are powerful classification models for accomplishing the tasks. As different languages have their particular shapes and styles of their numeric digits, the accuracy rates of different models vary from one another. In this project, I used various CNN structures to train a model with the dataset of both **English** and **Bangla** handwritten digits and also modified slightly to improve the accuracy of the model. The platform I used to train the model is [google colab](https://colab.research.google.com/?utm_source=scs-index) and also develop a _GUI_ in my **PC**
 to predict the newly imported digit images.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 #### Built With
