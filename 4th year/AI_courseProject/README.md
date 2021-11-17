@@ -44,50 +44,40 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 <a href="https://ibb.co/D7xQM65"><img src="https://i.ibb.co/gD5JWXz/pacch.png" alt="pacch" border="0"></a>
-<a href="https://ibb.co/Y2d44kn"><img src="https://i.ibb.co/LSgDDtj/5.png" alt="5" border="0"></a>
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<a href="https://ibb.co/n3vvQtZ"><img src="https://i.ibb.co/CJZZVDN/5.png" alt="5" border="0"></a>
 
 
 
-### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The handwritten digit recognition is a famous image classification problem. Convolutional neural networks or widely known as ConvNets are powerful classification models for accomplishing the tasks. As different languages have their particular shapes and styles of their numeric digits, the accuracy rates of different models vary from one another. In this project, I used various CNN structures to train a model with the dataset of both **English** and **Bangla** handwritten digits and also modified slightly to improve the accuracy of the model. The platform I used to train the model is [google colab](https://colab.research.google.com/?utm_source=scs-index) and also develop a _GUI_ in my **PC**
+to predict the newly imported digit images.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### Built With
+
+The list of various libraries and frameworks used to build this model and GUI
+| In Colab | In PC | Description |
+| --- | --- | --- |
+| python $3.7.12$ | python $3.7.9$ | Whole project is based on python language |
+| tensorflow $2.7.0$ |tensorflow $2.3.0$ | Python library for fast numerical computing  |
+| numpy $1.19.5$ |numpy $1.19.2$ | Used to perform a wide variety of mathematical operations on arrays |
+| keras $2.7.0$ |keras $2.4.3$ |  Python library for developing and evaluating deep learning models |
+| cv2 $4.1.2$ |cv2 $4.5.1$ |  Open-source library for the computer vision, machine learning, and image processing |
+| PIL $7.1.2$ |PIL $8.1.0$ | Adds support for opening, manipulating, and saving many different image file formats |
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+# Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+#### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
