@@ -27,10 +27,10 @@
         <a href="#built-with">Built With</a>
     </li>
     <li>
-      <a href="#Train the model">Train the model</a>
+      <a href="#train-the-model">Train the model</a>
     </li>
     <li>
-      <a href="#Developing GUI">Developing GUI</a>
+      <a href="#developing-gui">Developing GUI</a>
     </li>
   </ol>
 </details>
